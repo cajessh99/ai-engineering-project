@@ -6,7 +6,14 @@ A small FastAPI app with a health check and a `/ask` endpoint that answers quest
 
 Requires Python 3.11+. These commands are for PowerShell on Windows.
 
-1. Create and activate a virtual environment:
+1. Clone the repository and move into it:
+
+   ```powershell
+   git clone https://github.com/cajessh99/ai-engineering-project.git
+   cd ai-engineering-project
+   ```
+
+2. Create and activate a virtual environment:
 
    ```powershell
    py -m venv .venv
@@ -16,13 +23,13 @@ Requires Python 3.11+. These commands are for PowerShell on Windows.
    If activation fails with "running scripts is disabled", run
    `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once, then try again.
 
-2. Install dependencies:
+3. Install dependencies:
 
    ```powershell
    pip install -r requirements.txt
    ```
 
-3. Create a `.env` file in the project folder with your Anthropic API key
+4. Create a `.env` file in the project folder with your Anthropic API key
    (get one at https://console.anthropic.com):
 
    ```
