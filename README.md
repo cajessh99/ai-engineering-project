@@ -39,6 +39,14 @@ uvicorn main:app --reload
 
 The server runs at http://127.0.0.1:8000. Interactive API docs are at http://127.0.0.1:8000/docs.
 
+## Test
+
+```powershell
+pytest
+```
+
+The tests use a fake Claude client, so they run offline and don't need an API key.
+
 ## Endpoints
 
 | Method | Path      | Returns                                   |
