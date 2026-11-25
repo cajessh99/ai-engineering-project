@@ -29,7 +29,7 @@ Requires Python 3.11+. These commands are for PowerShell on Windows.
    pip install -r requirements.txt
    ```
 
-4. Create a `.env` file in the project folder with your Anthropic API key
+4. Copy `.env.example` to `.env` and add your Anthropic API key
    (get one at https://console.anthropic.com):
 
    ```
